@@ -87,9 +87,12 @@
         <main class="py-4">
             @yield('content')
         </main>
+
+    <!--
     <footer class="footer">
         Your Footer Content Goes Here
     </footer>
+    -->
 
 
 </body>
