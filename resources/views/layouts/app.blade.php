@@ -93,7 +93,11 @@
         Your Footer Content Goes Here
     </footer>
     -->
+    
 
 
 </body>
+
+@include('footer')  {{-- Include footer file --}}
+
 </html>
