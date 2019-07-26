@@ -33,7 +33,7 @@
             </a>
                 <a class="nav-link" href="/">Accueil</a>
                 <a class="nav-link" href="show">Prochains spectacle</a>
-                <a class="nav-link" href="#">Administration</a>
+                <a class="nav-link" href="admin">Administration</a>
                 <a class="nav-link" href="contact">Contact</a>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
@@ -87,10 +87,17 @@
         <main class="py-4">
             @yield('content')
         </main>
+
+    <!--
     <footer class="footer">
         Your Footer Content Goes Here
     </footer>
+    -->
+    
 
 
 </body>
+
+@include('footer')  {{-- Include footer file --}}
+
 </html>
