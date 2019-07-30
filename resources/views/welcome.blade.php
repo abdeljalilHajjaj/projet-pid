@@ -4,7 +4,6 @@
       
 
             <h1 class="titreArtiste">Reservation</h1>
-      </div>
 <div class="container">
     <div class="row">
         <div class="col-sm-4">
@@ -35,10 +34,10 @@
             </div>
         </div>
     </div>
-</div>
+<!-- </div> -->
 
-<div class="container" style="padding-top: 50px;">
-    <div class="row">
+<!-- <div class="container" style="padding-top: 50px;"> -->
+    <div class="row" style="padding-top: 50px;">
         <div class="col-4">
           
         </div>
@@ -52,7 +51,6 @@
       
     </div>
 
-
 <!-- suggestion: faut-il garder cela?
       <div class="container">
       	<div class="text-center">
@@ -64,21 +62,5 @@
       </div>
  END suggestion -->
 </div>
-
-            <!-- Test paiement button -->
-            <body>
-            <form action="/your-server-side-code" method="POST">
-                <script
-                        src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-                        data-key="pk_test_pIaGoPD69OsOWmh1FIE8Hl4J"
-                        data-amount="1999"
-                        data-name="Stripe Demo"
-                        data-description="Online course about integrating Stripe"
-                        data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
-                        data-locale="auto"
-                        data-currency="usd">
-                </script>
-            </form>
-            </body>
        
 @endsection

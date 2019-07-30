@@ -25,7 +25,7 @@
 					@endforeach
 						<tr>
 							<td>
-								<form action="/your-server-side-code" method="POST">
+								<form action="/paiementconfirm.blade.php" method="POST">
 									<script
 											src="https://checkout.stripe.com/checkout.js" class="stripe-button"
 											data-key="pk_test_pIaGoPD69OsOWmh1FIE8Hl4J"
@@ -44,7 +44,7 @@
 		</div>
 	</div>
 </div>
-	
+
 @endsection
 
 <!-- Payement button -->

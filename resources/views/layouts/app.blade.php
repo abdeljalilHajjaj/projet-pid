@@ -88,16 +88,7 @@
             @yield('content')
         </main>
 
-    <!--
-    <footer class="footer">
-        Your Footer Content Goes Here
-    </footer>
-    -->
-    
-
+    @include('footer')  {{-- Include footer file --}} 
 
 </body>
-
-@include('footer')  {{-- Include footer file --}}
-
 </html>
